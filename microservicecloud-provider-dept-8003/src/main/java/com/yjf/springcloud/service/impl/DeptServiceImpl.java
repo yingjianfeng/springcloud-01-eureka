@@ -1,13 +1,12 @@
 package com.yjf.springcloud.service.impl;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.yjf.springcloud.dao.DeptDao;
 import com.yjf.springcloud.entities.Dept;
 import com.yjf.springcloud.service.DeptService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class DeptServiceImpl implements DeptService {
